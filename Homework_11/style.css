@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+}
+
+h1{
+    font-size: 22pt;
+    margin: 20px 0;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section>div{
+    width: 1200px;
+}
+
+.animation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.animation button{
+    margin-left: 80%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+    width: 180px;
+}
+
+.animation button:hover{
+    cursor: pointer;
+    background-color: azure;
+}
+
+.animation>img{
+    width: 20%;
+}
+
+.text_animation{
+    text-align: justify;
+}

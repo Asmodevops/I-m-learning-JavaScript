@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="image">
+        <div>
+            <img src="image/1.jpg" alt="">
+        </div>
+        <div>
+            <img src="image/2.jpg" alt="">
+        </div>
+        <div>
+            <img src="image/3.jpg" alt="">
+        </div>
+    </section>
+
+    <section class="info">
+        <div>
+            <button id="bmw">
+                BMW M5
+            </button>
+            <div id="bmw_information">
+                <span>
+                    Производитель: BMW AG.
+                </span>
+                <span>
+                    Модель: M5.
+                </span>
+                <span>
+                    Год выпуска: 2020.
+                </span>
+                <span>
+                    Средняя скорость: 140 км/ч.
+                </span>
+            </div>
+        </div>
+        <div>
+            <button id="mercedes">
+                Mercedes-AMG GLS
+            </button>
+            <div id="mercedes_information">
+                <span>
+                    Производитель: Mercedes-Benz (Daimler AG).
+                </span>
+                <span>
+                    Модель: AMG GLS.
+                </span>
+                <span>
+                    Год выпуска: 2019.
+                </span>
+                <span>
+                    Средняя скорость: 135 км/ч.
+                </span>
+            </div>
+        </div>
+        <div>
+            <button id="lexus">
+                Lexus LX 570
+            </button>
+            <div id="lexus_information">
+                <span>
+                    Производитель: Toyota Motor Corporation.
+                </span>
+                <span>
+                    Модель: LX 570.
+                </span>
+                <span>
+                    Год выпуска: 2021.
+                </span>
+                <span>
+                    Средняя скорость: 152 км/ч.
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="speed_test">
+        <div>
+            <p>Давай рассчитаем, какое время понадобится каждому автомобилю для преодоления какого-либо расстояния со средней скоростью. При этом учтем, что каждые 4 часа дороги водителю необходимо делать перерыв на 1 час. Для этого, введите любое расстояние в километрах.</p>
+            <div>
+                <input type="number" id="distance">
+                <select id="auto">
+                    <option value="140">BMW M5</option>
+                    <option value="135">Mercedes-AMG GLS</option>
+                    <option value="152">Lexus LX 570</option>
+                </select>
+                <button id="but">Рассчитать</button>
+                <div class="output"><span id="output"></span></div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+    <section class="task_2">
+        <div>
+            <div>
+                <h1>Задание № 2</h1>
+                <p>
+                    Ниже будет представлен объект, описывающий время (часы, минуты, секунды). Для этого, вам предложено ввести текущее время (либо же любое другое, которое только в голову взбредет).
+                    Также, будет возможность изменения времени на переданное пользователем колличество секунд/минут/часов.
+                </p>
+                <div>
+                    <input type="number" placeholder="час." class="hour">
+                    <input type="number" placeholder="мин." class="minut">
+                    <input type="number" placeholder="сек." class="second">
+                    <button class="input_time">Ввести время</button>
+                    <div>
+                        <output>
+                            <span class="output_time"></span>
+                        </output>
+                    </div>
+                </div>
+                <p>
+                    Теперь попробуй добавить к введенному времени любое колличество часов, минут, либо секунд.
+                </p>
+                <div>
+                    <input type="number" placeholder="час." class="second_hour">
+                    <input type="number" placeholder="мин." class="second_minut">
+                    <input type="number" placeholder="сек." class="second_second">
+                    <button class="second_input_time">Добавить!</button>
+                    <div>
+                        <output>
+                            <span class="second_output_time"></span>
+                        </output>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <script src="code.jquery.com_jquery-3.7.1.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    padding: 20px;
+    text-align: center;
+}
+
+section{
+    display: flex;  
+    /* background-color: aqua; */
+    justify-content: center;
+}
+
+section>div{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aquamarine; */
+    width: 600px;
+}
+
+section>div>div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+/* 1 блок */
+section>div>div:nth-child(1) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(1){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(1) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(1) input, section>div>div:nth-child(1) output, section>div>div:nth-child(1) button{
+    width: 110px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(1) button:hover{
+    cursor: pointer;
+}
+
+
+/* 2 блок */
+
+section>div>div:nth-child(2) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(2){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(2) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(2) input, section>div>div:nth-child(2) output, section>div>div:nth-child(2) button{
+    width: 110px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(2) button:hover{
+    cursor: pointer;
+}
+
+/* 3 блок */
+
+section>div>div:nth-child(3) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(3){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(3) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(3) input, section>div>div:nth-child(3) output, section>div>div:nth-child(3) button{
+    width: 110px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(3) button:hover{
+    cursor: pointer;
+}
+
+/* 4 секция */
+
+section>div>div:nth-child(4) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(4){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(4) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(4) input, section>div>div:nth-child(4) output{
+    width: 110px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(4) button{
+    width: 150px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(4) button:hover{
+    cursor: pointer;
+}
+
+/* 5 секция */
+
+section>div>div:nth-child(5) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(5){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(5) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(5) input, section>div>div:nth-child(5) output{
+    width: 100px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(5) button{
+    width: 35px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(5) button:hover{
+    cursor: pointer;
+}
+
+/* 6 блок */
+
+section>div>div:nth-child(6) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(6){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(6)>div:nth-child(2) label{
+    padding: 12px 5px;
+}
+
+section>div>div:nth-child(6) span{
+    font-weight: bold;
+}
+
+section>div>div:nth-child(6) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(6) input, section>div>div:nth-child(6) output, section>div>div:nth-child(6) button{
+    width: 100px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(6) button:hover{
+    cursor: pointer;
+}
+
+/* 7 блок */
+
+section>div>div:nth-child(7) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(7){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(7)>div:nth-child(2) label{
+    padding: 12px 2px;
+}
+
+section>div>div:nth-child(7) span{
+    font-weight: bold;
+}
+
+section>div>div:nth-child(7) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(7) input, section>div>div:nth-child(7) output{
+    width: 40px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(7) button{
+    width: 110px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(7) button:hover{
+    cursor: pointer;
+}
+
+/* 8 блок */
+
+section>div>div:nth-child(8) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(8){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(8) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(8) input, section>div>div:nth-child(8) output{
+    width: 110px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+
+section>div>div:nth-child(8) button{
+    width: 150px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(8) button:hover{
+    cursor: pointer;
+}
+
+/* 9 блок */
+
+section>div>div:nth-child(9) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(9){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(9) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(9) input, section>div>div:nth-child(9) output{
+    width: 110px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+
+section>div>div:nth-child(9) button{
+    width: 150px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(9) button:hover{
+    cursor: pointer;
+}
+
+/* 10 блок */
+
+section>div>div:nth-child(10) div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+section>div>div:nth-child(10){
+    align-items: center;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+section>div>div:nth-child(10) div:nth-child(1){
+    padding: 10px;
+    font-size: 14pt;
+    text-align: center;
+}
+
+section>div>div:nth-child(10) input, section>div>div:nth-child(10) output{
+    width: 110px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+    
+}
+
+section>div>div:nth-child(10) button{
+    width: 150px;
+    margin: 5px 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+section>div>div:nth-child(10) button:hover{
+    cursor: pointer;
+}

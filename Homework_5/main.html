@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div>
+            <div>
+                <h1>Test</h1>
+                <p id="head">Вам предлагается решить тест из 5 вопросов. На это вам будет предоставлено 3 минуты. По истечении трёх минут, тест закроется и будет считаться автоматически несданным. На каждый вопрос в тесте имеется только один правильный вариант ответа. Кроме того, в тесте присутствует система оценивания, где максимальная оценка - 5, а каждая допущенная ошибка вычитает 1 балл от конечной оценки. В случае допущения трех и более ошибок, тест будет не сдан. По завершении теста, нажмите кнопку "Закончить тест". Это покажет вам правильные варианты ответов на каждый вопрос. Также, вы узнаете сколько Вы допустили ошибок и какую получили оценку. Чтобы приступить к решению теста, нажмите кнопку "Начать". </p>
+
+                <div class="head_timer" id="head_timer">
+                    <div id="timer" class="timer"></div>
+                </div>
+                <div class="first_push">
+                    <button id="push" class="push">Начать</button>
+                </div>
+
+                <div id="one" class="one">
+                    <p>1. Какие делители числа 68?</p>
+                    <label class="container red">1, 7, 32, 16.
+                        <input type="radio" checked name="rad1" class="rad1" value="-">
+                    </label>
+                    <label class="container green">1, 2, 68, 34, 17.
+                        <input type="radio" checked name="rad1" class="rad1" value="+">
+                    </label>
+                    <label class="container red">7, 9, 46, 7.
+                        <input type="radio" checked name="rad1" class="rad1" value="-">
+                    </label>
+                    <label class="container red">68, 5.
+                        <input type="radio" checked name="rad1" class="rad1" value="-">
+                    </label>
+                </div>
+
+                <div id="two" class="two">
+                    <p>2. Какие числа кратные 7?</p>
+                    <label class="container green">7, 14, 63, 77, 35...
+                        <input type="radio" checked name="rad2" class="rad2" value="+">
+                    </label>
+                    <label class="container red">1, 7, 9, 96784...
+                        <input type="radio" checked name="rad2" class="rad2" value="-">
+                    </label>
+                    <label class="container red">10, 9, 76, 8...
+                        <input type="radio" checked name="rad2" class="rad2" value="-">
+                    </label>
+                    <label class="container red">266, 1000, 7, 20...
+                        <input type="radio" checked name="rad2" class="rad2" value="-">
+                    </label>
+                </div>
+
+                <div id="three" class="three">
+                    <p>3. Какие числа из перечисленных простые?</p>
+                    <label class="container red">8, 9.
+                        <input type="radio" checked name="rad3" class="rad3" value="-">
+                    </label>
+                    <label class="container red">7, 4.
+                        <input type="radio" checked name="rad3" class="rad3" value="-">
+                    </label>
+                    <label class="container green">2, 7, 23.
+                        <input type="radio" checked name="rad3" class="rad3" value="+">
+                    </label>
+                    <label class="container red">10, 6.
+                        <input type="radio" checked name="rad3" class="rad3" value="-">
+                    </label>
+                </div>
+
+                <div id="four" class="four">
+                    <p>4. Расстояние между пунктами А и В автомобиль проехал за 1,2 часа, а автобус за 2,1 часа. Найдите скорость автомобиля, если автобус двигался на 30 км/ч медленнее автомобиля.</p>
+                    <label class="container red">50 км/ч
+                        <input type="radio" checked name="rad4" class="rad4" value="-">
+                    </label>
+                    <label class="container red">45 км/ч
+                        <input type="radio" checked name="rad4" class="rad4" value="-">
+                    </label>
+                    <label class="container red">55 км/ч
+                        <input type="radio" checked name="rad4" class="rad4" value="-">
+                    </label>
+                    <label class="container green">70 км/ч
+                        <input type="radio" checked name="rad4" class="rad4" value="+">
+                    </label>
+                </div>
+                <div id="five" class="five">
+                    <p>5. Вдоль дороги через каждые 45м стоят столбы. Их решили заменить другими, увеличив расстояние между столбами до 60м. На каком ближайшем расстоянии от первого столба установят новый столб на то же место, где стоял старый?</p>
+                    <label class="container green">180 метров.
+                        <input type="radio" checked name="rad5" class="rad5" value="+">
+                    </label>
+                    <label class="container red">200 метров.
+                        <input type="radio" checked name="rad5" class="rad5" value="-">
+                    </label>
+                    <label class="container red">150 метров.
+                        <input type="radio" checked name="rad5" class="rad5" value="-">
+                    </label>
+                    <label class="container red">210 метров.
+                        <input type="radio" checked name="rad5" class="rad5" value="-">
+                    </label>
+                </div>
+
+                <div class="last_text" id="last_text">
+                    Вы сделали <span id="fail"></span> из 5 ошибок. <span id="like"></span>
+                </div>
+
+                <div class="second_push">
+                    <button id="push_two" class="push_two">
+                        Закончить тест
+                    </button>
+                </div>
+
+                <div class="return_push">
+                    <button id="push_three" class="push_three">
+                        Повторить
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>

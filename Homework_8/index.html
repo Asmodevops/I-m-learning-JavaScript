@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Credit Card</h1>
+    <section class="header_section">
+        <div id="header_section">
+            <div class="card_header">
+                <div>
+                    CREDIT CARD DETAILS
+                </div>
+            </div>
+            <section class="active_card">
+                <div class="input_card_menu">
+                    <div class="card_number">
+                        <p>Card Number</p>
+                        <input type="text" placeholder="1234 5678 9012 3456" id="card_number" maxlength="16">
+                    </div>
+
+                    <div class="name_on_card">
+                        <p>Name On Card</p>
+                        <input type="text" placeholder="Name Surname" id="name_on_card">
+                    </div>
+
+                    <div class="down_section">
+                        <div>
+                            <p>Expiry Date</p>
+                            <input type="number" placeholder="09" id="month">
+                        </div>
+                        <div>
+                            <p>LOREM</p>
+                            <input type="number" placeholder="2023" id="year">
+                        </div>
+                        <div>
+                            <p>CVV / CVN</p>
+                            <input type="text" placeholder="***" maxlength="3" id="cvv">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="card_icon">
+                    <div>
+                        <img src="icon/earth_icon.png" alt="" class="earth_icon">
+                        <img src="icon/rouble_icon.png" alt="" class="rouble_icon">
+                    </div>
+                    <img src="icon/bank_icon.png" alt="" class="bank_icon">
+                </div>
+            </section>
+        </div>
+    </section>
+
+    <section class="second_header_section">
+        <div>
+            <p>
+                Поздравляю! Вы первый клиент нашего банка! Поэтому, вам предлагается выпустить индивидуальную банковскую карту. Для этого, вам нужно ввести соответствующие данные в предложенную форму, а также выбрать цвет для будущей банковской карты. В случае, если введенные вами данные окажутся некорректными, с вами свяжется наш сотрудник для уточнения данных.
+            </p>
+            <div>
+                <input type="color" id="color" value="#ffffff" class="color">
+                <button id="submit_button">SUBMIT</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
